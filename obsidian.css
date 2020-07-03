@@ -57,6 +57,7 @@
   --font-code-back:                     #c1c1c1;
   --font-selection:                     rgba(207, 217, 222, 0.70);
   --text-highlight-bg:                  rgba(207, 217, 222, 0.70);
+  --font-gutter:                        #555;
   --font-weight-normal:                 400;
 
   /* changing something down here presumably results in unintended consequences */
@@ -108,6 +109,7 @@
   --font-code-back:                     var(--interface-color-background-alt);
   --font-selection:                     rgba(100, 110, 125, 0.70);
   --text-highlight-bg:                  rgba(100, 110, 125, 0.70);
+  --font-gutter:                        #555;
   --font-weight-normal:                 400;
 
   /* changing something down here presumably results in unintended consequences */
@@ -121,6 +123,7 @@
   --background-secondary-alt:           var(--interface-color-background-alt);
   --background-modifier-border:         var(--interface-color-background-alt);
   --interactive-accent:                 var(--font-a);
+  --text-gutter:                        #555;
 }
 
 /***************************************/
@@ -885,6 +888,17 @@ a:hover,
 .cm-s-obsidian span.cm-formatting-link {
   color: var(--font-color-text-normal);
   opacity: 0.4;
+}
+
+/* _gutter                             */
+/*-------------------------------------*/
+
+.cm-s-obsidian .CodeMirror-guttermarker-subtle {
+  color: var(--font-gutter);
+}
+
+.cm-s-obsidian .CodeMirror-linenumber {
+  color: var(--font-gutter);
 }
 
 /* _headings                           */
