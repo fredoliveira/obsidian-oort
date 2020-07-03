@@ -346,7 +346,7 @@
 
 .view-header-title {
   font-size: var(--font-size-header-titles);
-  line-height: 28px;
+  line-height: 2.2em;
 }
 
 .view-action > svg,
@@ -491,7 +491,7 @@
 .status-bar-item {
   background-color: var(--background-primary);
   border-radius: 4px;
-  font-size: 10px;
+  font-size: 11px;
   border: 2px solid var(--background-secondary-alt);
   display: inline-block;
   vertical-align: middle;
@@ -737,10 +737,10 @@ input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
 /* _normal_text_editor                 */
 /*-------------------------------------*/
 .CodeMirror-lines {
-  font-weight: var(--font-weight-normal)+ 200;
-  line-height: 20px;
+  font-weight: var(--font-weight-normal);
+  line-height: 1.6em;
   padding: 0px;
-  font-family: Avenir, Avenir Next, sans-serif !important;
+  font-family: var(--font-family-monospace) !important;
 }
 
 .markdown-source-view.is-readable-line-width .CodeMirror {
