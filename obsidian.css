@@ -39,28 +39,28 @@
   --scrollbar-active-thumb-bg:          #3c3836;
 
   --font-color-text-normal:             #232323;
-  --font-family:                        Avenir, Avenir Next, sans-serif;
+  --font-family:                        "JetBrains Mono", sans-serif;
   --font-family-monospace:              "JetBrains Mono", monospace;
-  --font-line-height:                   22px;
-  --font-line-height-side:              17px;
-  --font-size:                          14.5px;
+  --font-line-height:                   1.6em;
+  --font-line-height-side:              1.2em;
+  --font-size:                          13px;
   --font-size-headlines:                13px;
-  --font-size-side:                     12.5px;
-  --font-size-header-titles:            13.5px;
-  --font-size-h1:                       23px;
-  --font-size-h2:                       22px;
-  --font-size-h3:                       21px;
-  --font-size-h4:                       20px;
-  --font-size-h5:                       19px;
-  --font-size-h6:                       18px;
+  --font-size-side:                     12px;
+  --font-size-header-titles:            12px;
+  --font-size-h1:                       13px;
+  --font-size-h2:                       13px;
+  --font-size-h3:                       13px;
+  --font-size-h4:                       13px;
+  --font-size-h5:                       13px;
+  --font-size-h6:                       13px;
   --font-a:                             #fad334; /*fad334*/ /*#D06069*/
   --font-a-hover:                       #ffefba; /*ffefba*/ /*#f3a2a9*/
-  --font-headlines:                     #fff000;
+  --font-headlines:                     #333;
   --font-code:                          var(--font-color-text-normal);
   --font-code-back:                     #c1c1c1;
   --font-selection:                     rgba(207, 217, 222, 0.70);
   --text-highlight-bg:                  rgba(207, 217, 222, 0.70);
-  --font-gutter:                        #555;
+  --font-gutter:                        #666;
   --font-weight-normal:                 400;
 
   /* changing something down here presumably results in unintended consequences */
@@ -737,10 +737,10 @@ input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
 /* _normal_text_editor                 */
 /*-------------------------------------*/
 .CodeMirror-lines {
+  font-family: var(--font-family-monospace) !important;
   font-weight: var(--font-weight-normal);
   line-height: 1.6em;
   padding: 0px;
-  font-family: var(--font-family-monospace) !important;
 }
 
 .markdown-source-view.is-readable-line-width .CodeMirror {
