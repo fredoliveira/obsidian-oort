@@ -892,7 +892,6 @@ a:hover,
 
 /* _gutter                             */
 /*-------------------------------------*/
-
 .cm-s-obsidian .CodeMirror-guttermarker-subtle {
   color: var(--font-gutter);
 }
@@ -1111,14 +1110,9 @@ a:hover,
 
 /* _list_bullets_color                 */
 /*-------------------------------------*/
-
 .cm-s-obsidian span.cm-formatting-list {
   color: var(--text-accent);
-  font-size: 0.85em;
-  font-weight: 500;
-  font-family: var(--font-monospace);
 }
-*/
 
 /* _hyphenation_and_justification      */
 /*-------------------------------------*/
