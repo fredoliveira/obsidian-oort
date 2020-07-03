@@ -73,9 +73,9 @@
 }
 
 .theme-dark {
-  --interface-color-background:         #5B5B5B;
-  --interface-color-background-alt:     #242424;
-  --interface-color-foreground:         #3e3e3e;
+  --interface-color-background:         #111;
+  --interface-color-background-alt:     #222;
+  --interface-color-foreground:         #333;
   --interface-color-foreground-alt:     #c2c2c2;
   --interface-color-border:             #191919;
   --interface-color-cross:              #a22b26;
