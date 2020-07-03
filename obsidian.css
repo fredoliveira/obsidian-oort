@@ -82,7 +82,7 @@
   --interface-color-pencil:             #d08f00;
   --interface-color-action:             var(--text-normal);
   --interface-color-pin:                var(--text-normal);
-  --interfa-color-icon:                 var(--interface-color-border);
+  --interface-color-icon:               var(--interface-color-border);
 
   --scrollbar-bg:                       none;
   --scrollbar-thumb-bg:                 var(--interface-color-foreground);
@@ -437,7 +437,7 @@
   height: 23px;
   padding: 2.5px;
   border-radius: 100px;
-  color: var(--interfa-color-icon);
+  color: var(--interface-color-icon);
   transition: width, height 0.2s;
 }
 
