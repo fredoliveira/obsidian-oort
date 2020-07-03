@@ -128,7 +128,6 @@
   --background-secondary-alt:           var(--interface-color-background-alt);
   --background-modifier-border:         var(--interface-color-background-alt);
   --interactive-accent:                 var(--font-a);
-  --text-gutter:                        #555;
 }
 
 /***************************************/
@@ -155,7 +154,7 @@
 }
 
 .workspace-split.mod-horizontal > .workspace-leaf {
-  padding-top: 10px; 
+  padding-top: 10px;
 }
 
 .workspace-split.mod-right-split .workspace-tabs {
@@ -198,7 +197,7 @@
 
 
 .mod-root .view-content {
-  height: calc(100% - 28px); 
+  height: calc(100% - 28px);
 }
 
 
@@ -356,7 +355,7 @@
 }
 
 .view-header-icon {
-  padding: 5px 5px 5px 5px;
+  padding: 3px 5px;
 }
 
 .view-action,
@@ -568,11 +567,11 @@
 }
 
 .tag-pane-tags {
-   padding: 10px 10px; 
+   padding: 12px;
 }
 
 .tag-pane-tag-count {
-  top: 7px;
+  top: 0px;
   right: 0px;
 }
 
@@ -744,15 +743,15 @@ input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
 }
 
 .markdown-source-view.is-readable-line-width .CodeMirror {
-  padding: 0px 0px 15px 0px !important;
+  padding: 10px;
 }
 
 .markdown-preview-view {
-  padding: 10px 0px 10px 0px;
+  padding: 10px;
 }
 
 .view-content > .markdown-preview-view {
-  padding: 0px 0px 0px 0px;
+  padding: 10px 20px !important;
 }
 
 
